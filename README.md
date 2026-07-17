@@ -7,7 +7,7 @@ Government of India's Rural Health Statistics annual reports, 2005 to 2022-23.
 
 **Live site:** enable GitHub Pages on this repository (Settings, Pages, deploy
 from branch, `main` and `/root`) and the dashboard is served at
-`https://<username>.github.io/<repo>/`.
+https://suraj-bhor.github.io/rhs-india/.
 
 ## About the dataset
 
