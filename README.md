@@ -7,7 +7,7 @@ Government of India's Rural Health Statistics annual reports, 2005 to 2022-23.
 
 **Live site:** enable GitHub Pages on this repository (Settings, Pages, deploy
 from branch, `main` and `/root`) and the dashboard is served at
-`https://<username>.github.io/<repo>/`.
+https://suraj-bhor.github.io/rhs-india/
 
 ## About the dataset
 
@@ -47,7 +47,6 @@ Statistics reports); this project claims no rights over them.
 > Association for Socially Applicable Research (ASAR). *Rural Health Statistics
 > of India — harmonised dataset, 2005–2023.* Compiled from Ministry of Health &
 > Family Welfare, Rural Health Statistics annual reports. Version 1.0, 2026.
-> https://asarforindia.github.io/rhs-india/
 
 This is an independent research compilation, not an official publication of
 the Ministry of Health & Family Welfare. For policy citation, cross-check
