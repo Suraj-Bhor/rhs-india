@@ -30,6 +30,25 @@ the files will be sent to you: the long format table, the indicator
 dictionary, per year tables for 2005 to 2023, and twelve thematic tables in
 CSV and XLSX.
 
+Full documentation — indicator naming, special-value semantics, the two
+reporting eras, boundary changes, verification, changelog and known
+limitations — is in [`CODEBOOK.md`](CODEBOOK.md).
+
+## License
+
+The compiled dataset, documentation and Data Explorer are licensed
+[**CC BY-NC 4.0**](https://creativecommons.org/licenses/by-nc/4.0/)
+(Attribution — NonCommercial). See [`LICENSE`](LICENSE). The underlying facility
+and workforce figures are Government of India material (MoHFW, Rural Health
+Statistics reports); this project claims no rights over them.
+
+## How to cite
+
+> Association for Socially Applicable Research (ASAR). *Rural Health Statistics
+> of India — harmonised dataset, 2005–2023.* Compiled from Ministry of Health &
+> Family Welfare, Rural Health Statistics annual reports. Version 1.0, 2026.
+> https://asarforindia.github.io/rhs-india/
+
 This is an independent research compilation, not an official publication of
 the Ministry of Health & Family Welfare. For policy citation, cross-check
 figures against the original report of the relevant year.

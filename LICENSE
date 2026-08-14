@@ -1,0 +1,57 @@
+Rural Health Statistics of India — harmonised dataset, documentation, and Data Explorer
+Copyright (c) 2026 Association for Socially Applicable Research (ASAR)
+
+Licensed under the Creative Commons Attribution-NonCommercial 4.0 International
+License (CC BY-NC 4.0).
+
+SPDX-License-Identifier: CC-BY-NC-4.0
+Full legal code: https://creativecommons.org/licenses/by-nc/4.0/legalcode
+Human-readable summary: https://creativecommons.org/licenses/by-nc/4.0/
+
+------------------------------------------------------------------------------
+You are free to:
+
+  * Share  — copy and redistribute the material in any medium or format.
+  * Adapt  — remix, transform, and build upon the material.
+
+Under the following terms:
+
+  * Attribution  — You must give appropriate credit (see "How to cite" below),
+    provide a link to this license, and indicate if changes were made.
+  * NonCommercial — You may not use the material for commercial purposes.
+
+No additional restrictions — You may not apply legal terms or technological
+measures that legally restrict others from doing anything the license permits.
+------------------------------------------------------------------------------
+
+WHAT THIS LICENSE COVERS
+
+This license applies to the *compiled work*: the harmonisation of 1,010 raw
+report columns into 863 canonical indicators, the data dictionary, the
+verification and repair scripts, the documentation (README, CODEBOOK), and the
+interactive Data Explorer (index.html and its assets).
+
+UNDERLYING SOURCE DATA
+
+The underlying facility and workforce figures are drawn from the Rural Health
+Statistics annual reports published by the Ministry of Health & Family Welfare,
+Government of India (2005 to 2022-23). Those source figures are Government of
+India material; this project claims no rights over them and redistributes them
+for research and public-interest use. Base-map geometry is derived from Census
+of India 2011 district boundaries (DataMeet community maps, CC BY).
+
+HOW TO CITE
+
+  Association for Socially Applicable Research (ASAR). Rural Health Statistics
+  of India — harmonised dataset, 2005–2023. Compiled from Ministry of Health &
+  Family Welfare, Rural Health Statistics annual reports. Version 1.0, 2026.
+  https://asarforindia.github.io/rhs-india/
+
+For policy or academic use, figures should be cross-checked against the
+original Rural Health Statistics report of the relevant year.
+
+NO WARRANTY
+
+This is an independent research compilation, not an official publication of the
+Ministry of Health & Family Welfare. The material is provided "as is", without
+warranty of any kind.

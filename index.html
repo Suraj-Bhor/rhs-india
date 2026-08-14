@@ -1,4 +1,27 @@
 <title>Rural Health Statistics of India: Data Explorer</title>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "name": "Rural Health Statistics of India (harmonised), 2005-2023",
+  "alternateName": "RHS India Data Explorer",
+  "description": "A harmonised, analysis-ready compilation of India's Rural Health Statistics annual reports (Ministry of Health & Family Welfare), 2005 to 2022-23. 863 indicators across 12 domains for all 36 States and Union Territories (40 including historical entities): Sub Centres, PHCs, CHCs, health workforce, building infrastructure, and tribal-area facilities. 1,010 raw report columns are harmonised to 863 canonical indicators across two reporting eras, special values are preserved, and every headline facility figure is verified against the printed source tables for all 19 years.",
+  "url": "https://asarforindia.github.io/rhs-india/",
+  "sameAs": "https://www.asarforindia.org/",
+  "keywords": ["Rural Health Statistics", "India", "public health", "health infrastructure", "Sub Centres", "Primary Health Centres", "Community Health Centres", "health workforce", "tribal health", "Indian Public Health Standards", "Ministry of Health and Family Welfare"],
+  "creator": {"@type": "Organization", "name": "Association for Socially Applicable Research (ASAR)", "url": "https://www.asarforindia.org/"},
+  "publisher": {"@type": "Organization", "name": "Association for Socially Applicable Research (ASAR)", "url": "https://www.asarforindia.org/"},
+  "isBasedOn": {"@type": "CreativeWork", "name": "Rural Health Statistics annual reports (2005 to 2022-23)", "publisher": {"@type": "GovernmentOrganization", "name": "Ministry of Health & Family Welfare, Government of India"}},
+  "temporalCoverage": "2005/2023",
+  "spatialCoverage": {"@type": "Place", "name": "India", "geo": {"@type": "GeoShape", "box": "6.5 68.0 37.2 97.5"}},
+  "license": "https://creativecommons.org/licenses/by-nc/4.0/",
+  "isAccessibleForFree": true,
+  "conditionsOfAccess": "The interactive explorer and documentation are openly available. Full dataset files are shared on request while the collection is prepared for formal release.",
+  "measurementTechnique": "Compiled and harmonised from published Rural Health Statistics annual report tables; headline values verified against the source reports.",
+  "variableMeasured": ["Functioning Sub Centres", "Functioning Primary Health Centres", "Functioning Community Health Centres", "Required health facilities (IPHS norms)", "Doctors at PHCs", "Specialists at CHCs", "Health Workers (Female) / ANMs", "Tribal-area facilities"],
+  "version": "1.0"
+}
+</script>
 <style>
 /* ============ tokens ============ */
 :root{
@@ -265,6 +288,12 @@ main{padding-bottom:56px}
       <div class="cta-row">
         <a class="btn" href="mailto:surajbhor.lkml@gmail.com?subject=RHS%20dataset%20access%20request">Request the dataset</a>
       </div>
+      <p class="foot-note" style="margin-top:14px">
+        Licensed <a href="https://creativecommons.org/licenses/by-nc/4.0/" rel="license">CC BY-NC 4.0</a>
+        (attribution, non-commercial). See the
+        <a href="CODEBOOK.md">codebook</a> for methodology, indicator naming, special-value
+        semantics, boundary changes, and known limitations. An independent research
+        compilation, not an official publication of the Ministry of Health &amp; Family Welfare.</p>
     </div>
     <div class="dgrid" id="domainGrid"></div>
     <div class="panel" id="dictPanel">
