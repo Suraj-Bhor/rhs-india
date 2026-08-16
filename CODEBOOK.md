@@ -161,10 +161,9 @@ indicator dictionary, and the interactive Explorer are openly available.
 
 Licensed **CC BY-NC-ND 4.0** (Attribution-NonCommercial-NoDerivatives). See `LICENSE`.
 
-> Association for Socially Applicable Research (ASAR). *Rural Health Statistics
-> of India — harmonised dataset, 2005–2023.* Compiled from Ministry of Health &
-> Family Welfare, Rural Health Statistics annual reports. Version 1.0, 2026.
-> https://asarforindia.github.io/rhs-india/
+> Bhor, S., & Zadey, S. (2026). *Rural Health Statistics of India — harmonised
+> dataset, 2005–2023* (Version 1.0) [Data set]. Zenodo.
+> https://doi.org/10.5281/zenodo.21966746
 
 This is an independent research compilation, not an official publication of the
 Ministry of Health & Family Welfare. For policy or academic use, cross-check

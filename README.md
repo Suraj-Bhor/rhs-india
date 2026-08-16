@@ -2,6 +2,9 @@
 
 # Rural Health Statistics of India: Data Explorer
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21966746.svg)](https://doi.org/10.5281/zenodo.21966746)
+[![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+
 An interactive explorer built on an analysis-ready dataset compiled from the
 Government of India's Rural Health Statistics annual reports, 2005 to 2022-23.
 
@@ -44,9 +47,9 @@ Statistics reports); this project claims no rights over them.
 
 ## How to cite
 
-> Association for Socially Applicable Research (ASAR). *Rural Health Statistics
-> of India — harmonised dataset, 2005–2023.* Compiled from Ministry of Health &
-> Family Welfare, Rural Health Statistics annual reports. Version 1.0, 2026.
+> Bhor, S., & Zadey, S. (2026). *Rural Health Statistics of India — harmonised
+> dataset, 2005–2023* (Version 1.0) [Data set]. Zenodo.
+> https://doi.org/10.5281/zenodo.21966746
 
 This is an independent research compilation, not an official publication of
 the Ministry of Health & Family Welfare. For policy citation, cross-check
