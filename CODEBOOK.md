@@ -159,7 +159,7 @@ indicator dictionary, and the interactive Explorer are openly available.
 
 ## 12. License and citation
 
-Licensed **CC BY-NC 4.0** (Attribution-NonCommercial). See `LICENSE`.
+Licensed **CC BY-NC-ND 4.0** (Attribution-NonCommercial-NoDerivatives). See `LICENSE`.
 
 > Association for Socially Applicable Research (ASAR). *Rural Health Statistics
 > of India — harmonised dataset, 2005–2023.* Compiled from Ministry of Health &

@@ -37,8 +37,8 @@ limitations — is in [`CODEBOOK.md`](CODEBOOK.md).
 ## License
 
 The compiled dataset, documentation and Data Explorer are licensed
-[**CC BY-NC 4.0**](https://creativecommons.org/licenses/by-nc/4.0/)
-(Attribution — NonCommercial). See [`LICENSE`](LICENSE). The underlying facility
+[**CC BY-NC-ND 4.0**](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+(Attribution — NonCommercial — NoDerivatives). See [`LICENSE`](LICENSE). The underlying facility
 and workforce figures are Government of India material (MoHFW, Rural Health
 Statistics reports); this project claims no rights over them.
 
