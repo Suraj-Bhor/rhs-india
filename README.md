@@ -47,9 +47,29 @@ Statistics reports); this project claims no rights over them.
 
 ## How to cite
 
-> Bhor, S., & Zadey, S. (2026). *Rural Health Statistics of India — harmonised
-> dataset, 2005–2023* (Version 1.0) [Data set]. Zenodo.
-> https://doi.org/10.5281/zenodo.21966746
+Plain text:
+
+```
+Bhor, S., & Zadey, S. (2026). Rural Health Statistics of India — harmonised dataset, 2005–2023 (Version 1.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.21966746
+```
+
+BibTeX:
+
+```bibtex
+@dataset{bhor_zadey_2026_rhs,
+  author    = {Bhor, Suraj and Zadey, Siddhesh},
+  title     = {{Rural Health Statistics of India --- harmonised dataset, 2005--2023}},
+  year      = {2026},
+  version   = {1.0},
+  publisher = {Zenodo},
+  doi       = {10.5281/zenodo.21966746},
+  url       = {https://doi.org/10.5281/zenodo.21966746}
+}
+```
+
+## Acknowledgements
+
+We thank Yash Jawale for valuable feedback on the release of the dashboard.
 
 This is an independent research compilation, not an official publication of
 the Ministry of Health & Family Welfare. For policy citation, cross-check

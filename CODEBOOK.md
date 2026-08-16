@@ -168,3 +168,7 @@ Licensed **CC BY-NC-ND 4.0** (Attribution-NonCommercial-NoDerivatives). See `LIC
 This is an independent research compilation, not an official publication of the
 Ministry of Health & Family Welfare. For policy or academic use, cross-check
 figures against the original report of the relevant year.
+
+## 13. Acknowledgements
+
+We thank Yash Jawale for valuable feedback on the release of the dashboard.

@@ -189,6 +189,18 @@ input[type="range"]{accent-color:var(--accent);width:220px}
 .drow .meta{display:flex;gap:6px;justify-content:flex-end;flex-wrap:wrap}
 .tag{background:var(--chip);border:1px solid var(--line);border-radius:5px;padding:1px 8px;font-size:.7rem;color:var(--ink2);white-space:nowrap}
 
+/* ============ site footer ============ */
+.sitefoot{border-top:1px solid var(--line);background:var(--surface);margin-top:20px;padding:34px 0 46px}
+.foot-cite{display:flex;gap:18px;align-items:flex-start;justify-content:space-between;flex-wrap:wrap}
+.citation{font-size:.9rem;color:var(--ink);margin:6px 0 0;max-width:82ch;line-height:1.55}
+.copybtn{flex:0 0 auto;display:inline-flex;align-items:center;gap:7px;background:var(--surface);
+  color:var(--accent);border:1px solid var(--accent);border-radius:8px;padding:8px 14px;
+  font-size:.85rem;font-weight:600;cursor:pointer;white-space:nowrap;transition:background .12s,color .12s}
+.copybtn:hover{background:var(--chip)}
+.copybtn.ok{color:var(--good);border-color:var(--good)}
+.foot-ack{font-size:.85rem;color:var(--ink2);margin:24px 0 0}
+.foot-meta{font-size:.78rem;color:var(--ink2);margin:8px 0 0}
+
 /* ============ tooltip ============ */
 #tip{position:fixed;z-index:99;pointer-events:none;background:var(--ink);color:var(--bg);
   border-radius:8px;padding:8px 12px;font-size:.78rem;line-height:1.5;max-width:270px;
@@ -440,6 +452,23 @@ main{padding-bottom:56px}
 </section>
 
 </main>
+
+<footer class="sitefoot">
+  <div class="wrap">
+    <div class="foot-cite">
+      <div>
+        <span class="eyebrow">Cite this dataset</span>
+        <p class="citation" id="citeText">Bhor, S., &amp; Zadey, S. (2026). Rural Health Statistics of India — harmonised dataset, 2005–2023 (Version 1.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.21966746</p>
+      </div>
+      <button class="copybtn" id="copyCite" aria-label="Copy citation">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+        Copy
+      </button>
+    </div>
+    <p class="foot-ack">Acknowledgements: we thank Yash Jawale for valuable feedback on the release of the dashboard.</p>
+    <p class="foot-meta">Licensed CC BY-NC-ND 4.0. An independent research compilation, not an official publication of the Ministry of Health &amp; Family Welfare.</p>
+  </div>
+</footer>
 
 <button id="toTop" aria-label="Back to top">↑ Top</button>
 <div id="tip" role="tooltip"></div>
@@ -1143,6 +1172,21 @@ renderAll();renderDict();renderDataStats();renderDomains();counters();navSpy();
 const toTop=document.getElementById("toTop");
 addEventListener("scroll",()=>toTop.classList.toggle("on",scrollY>600),{passive:true});
 toTop.addEventListener("click",()=>scrollTo({top:0,behavior:reduceMotion?"auto":"smooth"}));
+const copyBtn=document.getElementById("copyCite");
+if(copyBtn){
+  const orig=copyBtn.innerHTML;
+  copyBtn.addEventListener("click",()=>{
+    const text=document.getElementById("citeText").textContent.trim();
+    const ok=()=>{copyBtn.classList.add("ok");copyBtn.textContent="\u2713 Copied";
+      setTimeout(()=>{copyBtn.classList.remove("ok");copyBtn.innerHTML=orig;},1800);};
+    if(navigator.clipboard&&navigator.clipboard.writeText){
+      navigator.clipboard.writeText(text).then(ok).catch(()=>fb(text,ok));
+    }else fb(text,ok);
+  });
+  function fb(t,cb){const ta=document.createElement("textarea");ta.value=t;
+    ta.style.position="fixed";ta.style.opacity="0";document.body.appendChild(ta);ta.select();
+    try{document.execCommand("copy");cb();}catch(e){}ta.remove();}
+}
 let rsT=null;
 addEventListener("resize",()=>{clearTimeout(rsT);rsT=setTimeout(renderAll,150);});
 </script>
