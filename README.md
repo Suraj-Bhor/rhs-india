@@ -32,7 +32,7 @@ Each release is distributed as a single archive with a `CHECKSUMS.txt` manifest
 archive `RHS_dataset_v1.0.zip` has SHA-256:
 
 ```
-ecfe3b7754d70378ef61fd2b6b5106c6dddd379f6e39475abc14322c89354bad
+2d8350f253e1eb747980d7ed4a9aa37a5111af0d879b88f6fd225b9381c91fda
 ```
 
 ## Data availability

@@ -31,6 +31,7 @@ one consistent, analysis-ready dataset.
 | File | Shape | Contents |
 |---|---|---|
 | `RHS_All_Years_Long.csv` | long | `Year, State, Category, Metric, Value` — the master table |
+| `RHS_All_Indicators_By_State.csv` | wide | one row per State, every indicator-year as a column (all 12 thematic tables joined) — the horizontal counterpart of the long table |
 | `RHS_Combined_Data_Dictionary.csv` | reference | all 863 indicators: code, description, domain, year coverage, raw source names |
 | `RHS_per_year_tables.zip` | wide | 19 CSVs, one per year, each State × Indicator as published |
 | `RHS_thematic_tables.zip` | wide | 12 domain tables, State × (Indicator-Year) |
