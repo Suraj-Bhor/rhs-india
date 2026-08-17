@@ -25,6 +25,16 @@ https://suraj-bhor.github.io/rhs-india/
 - Verified with 1,300+ automated checks, including value by value comparison
   against the printed source tables.
 
+## Integrity
+
+Each release is distributed as a single archive with a `CHECKSUMS.txt` manifest
+(SHA-256 per file), so recipients can verify integrity. The v1.0 distribution
+archive `RHS_dataset_v1.0.zip` has SHA-256:
+
+```
+ecfe3b7754d70378ef61fd2b6b5106c6dddd379f6e39475abc14322c89354bad
+```
+
 ## Data availability
 
 The dataset is currently shared on request while it is being prepared for

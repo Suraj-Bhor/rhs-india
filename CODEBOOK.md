@@ -122,6 +122,11 @@ Built PDF-first: the printed report is treated as ground truth.
    comparison of headline facility figures against the source tables for all 19
    years**. Endpoint tables (2011, 2021) were verified 100%.
 
+Each distribution includes a `CHECKSUMS.txt` manifest with the SHA-256 of every
+file, so recipients can verify integrity (`shasum -a 256 -c CHECKSUMS.txt`). The
+SHA-256 of the distribution archive itself is recorded with each release and in
+the access record.
+
 ## 9. Changelog
 
 **v1.0 (2026)** — first public release. Includes three source-corrections made
